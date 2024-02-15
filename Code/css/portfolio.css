@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    margin: 0;
+    padding: 0
+    /*background-color: #f4f4f4;*/
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+	text-align: center;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+}
+
+/* Resume Section */
+#resume {
+    padding: 0% 10%;
+    background-color: white;
+    margin-top: 20px;
+	padding-bottom: 50px;
+}
+
+#instaBody {
+    padding: 0% 10%;
+    background-color: white;
+    margin-top: 20px;
+	padding-bottom: 40%;
+}
+
+#podcastBody {
+    padding: 0% 10%;
+	padding-bottom: 50px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#resume h1 {
+    font-size: 2em;
+    color: #34495e;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 10% 5%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#gallery h1 {
+    font-size: 2em;
+    color: #34495e;
+}
+
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	justify-content: center;
+	/* background-color: lightblue; */
+    gap: 10%; /* This creates space between the videos */
+}
+
+.podcast-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: center;
+    /* background-color: lightblue; */
+    gap: 10%; /* This will still apply to both rows and columns */
+    row-gap: 150px; /* Increased space between rows */
+    padding-bottom: 15%;
+}
+
+.podcast-container.iframe{
+	padding-bottom: 15%;
+	padding-top: 10%;
+}
+
+
+.blurb-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	justify-content:space-around;
+	/* background-color: lightblue; */
+    gap: 20%; /* This creates space between the videos */
+}
+
+.instagram-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1%;
+	justify-content: center;
+	/* background-color: orangered; */
+    gap: 10%; /* This creates space between the videos */
+	padding-top: 20px;
+}
+
+/* this is correct, but its position with video-container is not???*/
+video {
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+	position: relative;
+	align-items: center;
+    width: 100%; /* Adjusts to the width of the container */
+    padding-top: 56.25%; /* Aspect ratio: 16:9, adjust as needed */
+	max-width: 325px;
+
+}
+
+video:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px;
+    }
+}
+
+.container {
+	display: flex;
+	/* background-color: lightblue; */
+	flex-wrap: wrap;
+}
+
+.video-container div {
+/* background-color: green; */
+	padding-left: 20px; 
+	padding-right: 20px; 
+	padding-top: 0px;
+	padding-bottom: 50%;
+	font-size: 20px;
+	color: white;
+	align-items: center;
+}
+
+.video {
+    flex: 3;
+    min-width: 20%; /* Adjust this value as needed */
+    max-width: 325; /* Adjust this value to control the maximum size of each video */
+    padding: 10% 20%;
+    box-sizing: border-box;
+}
+
+.tiktok-embed{
+	align-content: center;
+	min-width: 20%; /* Adjust this value as needed */
+    max-width: 48%; 
+	background-color: white;
+	align-items: center;
+}
+
+
+
+/* Responsive Design for smaller screens */
+@media screen and (max-width: 600px) {
+    .video {
+        min-width: 80%; /* Videos take more width on smaller screens */
+    }
+}
