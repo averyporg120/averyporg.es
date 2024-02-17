@@ -555,12 +555,25 @@ h6, .h6 {
 @media (max-width: 576px) {
 	.display-1 {
 		font-size: 3rem;
+		padding: 0px 20%;
 	}
 	.display-1 {
 		font-size: 3rem;
 	}
 	.display-2 {
 		font-size: 19px;
+	}
+	.jumbotron h2 {
+		padding: 0px 10%;
+	}
+	.jumbotron h4 {
+		padding: 0px 20%;
+	}
+	.instaHeader .h1 .display-1 .h4{
+		padding: 0px 50%;
+	}
+	.instaHeader .p {
+		padding: 0px 20px;
 	}
 }
 
