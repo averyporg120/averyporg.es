@@ -1,111 +1,1211 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Avery Porges - Portfolio</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avery Porges | Social Video Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-    <!-- Bootstrap -->
-    <link href="Code/css/bootstrap-4.4.1.css" rel="stylesheet">
-    <link href="Code/css/portfolio.css" rel="stylesheet" type="text/css">
-	  
-	<!-- Font stuff -->  
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&family=Nunito&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">	
-	  
-	  
-	  <style>
-		  h1 {
-			font-family: 'Nunito', sans-serif;
-		  }
-		  h2 {
-			font-family: 'Nunito', sans-serif;
-			font-size: 20px;
-		  }
-		  h3 {
-			font-family: 'Noto Sans', sans-serif;
-		  }
-    </style>
+    body {
+      font-family: 'Nunito', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fff;
+    }
 
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-			  
-             <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-             </li>
-             
-			  
-			 <li class="nav-item">
-                <a class="nav-link" href="Code/TimeOutInsta1.html">Reels</a>
-             </li>
-			  
-			  <li class="nav-item">
-                <a class="nav-link" href="Code/TimeOutTikTok1.html">TikTok</a>
-             </li>
-			  
-			  <li class="nav-item">
-                <a class="nav-link" href="Code/Podcasts.html">Podcasts</a>
-             </li>
-			  
-			  
-			 <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Social Media
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <a class="dropdown-item" href="TimeOutInsta1.html">Instagram Reels</a>
-                   <a class="dropdown-item" href="TimeOutTikTok1.html">TikTok</a>
-                   <!-- <div class="dropdown-divider"></div>
-                   <a class="dropdown-item" href="#">Something else here</a> 
-                </div>
-             </li>
-			  -->
-             
-             <!-- <li class="nav-item"> 
-                <a class="nav-link disabled" href="#">Disabled</a>
-             </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form> -->
-       </div>
-    </nav>
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Poppins', sans-serif;
+      color: #2c5e35;
+      margin-bottom: 1rem;
+    }
 
-    <div class="jumbotron jumbotron-fluid text-center">
-       
-		
-		<div class="profile-section">
-			<img src="Images/averypfp.png" alt="Avery Profile Pic"> 
-			<div class="content">
-				<h3 class="display-1">Hi, there!</h3>
-				<h2 class="display-2">I’m Avery, a senior at NYU with a passion for video production and content creation. I've spent the past few years exploring New York City and making short-form content, for TimeOut and other organizations.  <br><br>Through these projects, I’ve covered new food, amazing experiences, and fascinating people.</h2>
-			</div>
-		</div>
-	 </div>
-       <!-- <p>Avery Porges is a dynamic and creative individual currently pursuing a B.S. in Media Culture and Communication at New York University with a minor in the Business of Entertainment, Media, and Technology. Avery excels in video editing, showcasing proficiency with Final Cut Pro X and Adobe Premiere, and possesses comprehensive skills in the Adobe Suite, HTML, Java, Excel, and Google Sheets. Fluent in Mandarin, Avery combines technological expertise with cultural fluency. Beyond technology, Avery has a passion for cooking, food science, music composition, and is an avid biker and outdoor sports enthusiast, reflecting a balance of intellectual curiosity and a love for physical activity and nature.</p> -->
-	<!--
-	<div>
-       <hr class="my-4">
-       <p></p>
-       <p class="lead">
-          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-       </p>
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #4a6c4a;
+    }
+
+    a {
+      color: #2c5e35;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #1e3f24;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    .section {
+      padding: 5rem 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      margin-bottom: 3rem;
+      color: #4a6c4a;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 1rem;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(to right, #2c5e35, #1e3f24);
+      color: white;
+      padding: 1.5rem 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: white;
+    }
+
+    .nav-links {
+      display: flex;
+      list-style: none;
+    }
+
+    .nav-links li {
+      margin-left: 2rem;
+    }
+
+    .nav-links a {
+      color: white;
+      font-weight: 500;
+    }
+
+    .nav-links a:hover {
+      color: #e9f5db;
+    }
+
+    /* Hero section */
+    .hero {
+      background: linear-gradient(to right, #2c5e35, #1e3f24);
+      color: white;
+      padding: 6rem 0;
+      text-align: center;
+    }
+
+    .hero h1 {
+      color: white;
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero p {
+      color: #e9f5db;
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 2.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: white;
+      color: #2c5e35;
+      border-radius: 4px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border: none;
+      cursor: pointer;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    .btn:hover {
+      background-color: #f0f7f4;
+      transform: translateY(-2px);
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      border: 2px solid white;
+      color: white;
+    }
+
+    .btn-outline:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* About section */
+    .about {
+      background-color: white;
+    }
+
+    .about-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 3rem;
+    }
+
+    .about-image {
+      flex: 1;
+      min-width: 300px;
+      border-radius: 1rem;
+      overflow: hidden;
+      background-color: #e9f5db;
+      aspect-ratio: 1/1;
+    }
+
+    .about-text {
+      flex: 1;
+      min-width: 300px;
+      padding: 1rem;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .social-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background-color: #f0f7f4;
+      border-radius: 50%;
+      color: #2c5e35;
+      transition: all 0.3s ease;
+    }
+
+    .social-link:hover {
+      background-color: #e9f5db;
+      color: #1e3f24;
+    }
+
+    /* Content tabs */
+    .content-tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 3rem;
+    }
+
+    .content-tab {
+      padding: 0.75rem 2rem;
+      background-color: white;
+      border: 1px solid #c7e8ca;
+      color: #2c5e35;
+      cursor: pointer;
+      font-weight: 600;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    .content-tab:first-child {
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+
+    .content-tab:last-child {
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+
+    .content-tab.active {
+      background-color: #2c5e35;
+      color: white;
+      border-color: #2c5e35;
+    }
+
+    .content-panel {
+      display: none;
+    }
+
+    .content-panel.active {
+      display: block;
+    }
+
+    /* Videos section */
+    .videos {
+      background-color: #f9f9f9;
+      padding: 5rem 0;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .video-card {
+      border: 1px solid #c7e8ca;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      background-color: white;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .video-embed {
+      width: 100%;
+      background-color: #f0f7f4;
+      position: relative;
+      padding-bottom: 125%; /* Adjusted to prevent cropping */
+    }
+
+    .instagram-embed-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .instagram-embed-container iframe {
+      width: 100% !important;
+      min-width: 100% !important;
+      max-width: none !important;
+      height: 100% !important;
+      border: none !important;
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+    }
+
+    .video-info {
+      padding: 0.75rem;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .video-stats {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.875rem;
+      color: #4a6c4a;
+    }
+
+    .video-stat {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .video-stat svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Podcast section */
+    .podcasts {
+      background-color: white;
+      padding: 5rem 0;
+    }
+
+    .podcast-series {
+      margin-bottom: 4rem;
+    }
+
+    .podcast-header {
+      border: 1px solid #c7e8ca;
+      border-radius: 0.5rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      background-color: white;
+    }
+
+    .podcast-title {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .podcast-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px;
+      height: 48px;
+      background-color: #e9f5db;
+      border-radius: 50%;
+      color: #2c5e35;
+    }
+
+    .podcast-episodes {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .podcast-embed {
+      width: 100%;
+    }
+
+    .podcast-embed iframe {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    /* Analytics section */
+    .analytics {
+      background-color: #f9f9f9;
+      padding: 4rem 0;
+    }
+
+    .analytics-tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 3rem;
+    }
+
+    .analytics-tab {
+      padding: 0.75rem 2rem;
+      background-color: white;
+      border: 1px solid #c7e8ca;
+      color: #2c5e35;
+      cursor: pointer;
+      font-weight: 600;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    .analytics-tab:first-child {
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+
+    .analytics-tab:last-child {
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+
+    .analytics-tab.active {
+      background-color: #2c5e35;
+      color: white;
+      border-color: #2c5e35;
+    }
+
+    .analytics-content {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .analytics-panel {
+      display: none;
+    }
+
+    .analytics-panel.active {
+      display: block;
+    }
+
+    .platform-tabs {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+
+    .platform-tab {
+      padding: 0.5rem 1.5rem;
+      background-color: white;
+      border: 1px solid #c7e8ca;
+      color: #2c5e35;
+      cursor: pointer;
+      font-weight: 600;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    .platform-tab:first-child {
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+
+    .platform-tab:last-child {
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+
+    .platform-tab.active {
+      background-color: #8fb996;
+      color: white;
+      border-color: #8fb996;
+    }
+
+    .platform-panel {
+      display: none;
+    }
+
+    .platform-panel.active {
+      display: block;
+    }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .metric-card {
+      background-color: white;
+      border: 1px solid #c7e8ca;
+      border-radius: 0.5rem;
+      padding: 1.5rem;
+    }
+
+    .metric-title {
+      font-size: 0.875rem;
+      color: #4a6c4a;
+      margin-bottom: 0.5rem;
+    }
+
+    .metric-value {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #2c5e35;
+    }
+
+    .metric-description {
+      font-size: 0.75rem;
+      color: #4a6c4a;
+      margin-top: 0.5rem;
+    }
+
+    .platform-title {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #2c5e35;
+      font-size: 1.5rem;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #1e3f24;
+      color: #c7e8ca;
+      padding: 3rem 0;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .footer-logo {
+      color: #c7e8ca;
+      font-weight: 700;
+      font-size: 1.25rem;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .footer-social a {
+      color: #c7e8ca;
+    }
+
+    .footer-social a:hover {
+      color: white;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .hero p {
+        font-size: 1rem;
+      }
+
+      .section {
+        padding: 3rem 0;
+      }
+
+      .about-content {
+        flex-direction: column;
+      }
+
+      .about-image {
+        width: 100%;
+      }
+
+      .video-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .metrics-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .content-tabs, .analytics-tabs, .platform-tabs {
+        flex-direction: row;
+        width: 100%;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .content-tab, .analytics-tab, .platform-tab {
+        border-radius: 0;
+        text-align: center;
+        flex: 1;
+      }
+
+      .content-tab:first-child, .analytics-tab:first-child, .platform-tab:first-child {
+        border-radius: 4px 0 0 4px;
+      }
+
+      .content-tab:last-child, .analytics-tab:last-child, .platform-tab:last-child {
+        border-radius: 0 4px 4px 0;
+      }
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .video-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    /* Mobile fixes */
+    @media (max-width: 768px) {
+      .instagram-embed-container {
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        padding-bottom: 125%;
+      }
+
+      .instagram-embed-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .video-embed {
+        padding-bottom: 0;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Avery Porges</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#analytics">Analytics</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-	-->
-    
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-    <script src="Code/js/jquery-3.4.1.min.js"></script>
+  </header>
 
-    <!-- Include all compiled plugins (below), or include individual files as needed --> 
-    <script src="Code/js/popper.min.js"></script>
-    <script src="Code/js/bootstrap-4.4.1.js"></script>
-  </body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Social Video Editor & Content Creator</h1>
+      <p>Crafting engaging social media content that drives growth and engagement</p>
+      <div>
+        <a href="#portfolio" class="btn">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-image">
+          <!-- Replace with your actual image -->
+          <img src="Images/AVERY BLUE LINE PFP.png" alt="Avery Porges Profile">
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>I'm a social video editor and content creator specializing in short-form video content for Instagram, TikTok, and other social platforms. With experience managing social media accounts for major publications like Time Out, I've developed a keen understanding of what drives engagement and growth.</p>
+          <p>My expertise includes video editing, content strategy, and social media management. I've helped brands increase their social presence through compelling storytelling and data-driven content decisions.</p>
+          
+          <h3>Connect With Me</h3>
+          <div class="social-links">
+            <a href="https://www.instagram.com/averyporges/" class="social-link" target="_blank" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://www.tiktok.com/@user66567348" class="social-link" target="_blank" aria-label="TikTok">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/avery-porges-1948081a0/" class="social-link" target="_blank" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="https://www.youtube.com/@AveryPorges" class="social-link" target="_blank" aria-label="YouTube">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+            </a>
+            <a href="#" class="social-link" target="_blank" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+          </div>
+          
+          <div style="margin-top: 2rem;">
+            <a href="#" class="btn" download>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.5rem;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Work</h2>
+      <p class="section-subtitle">Browse through my portfolio of social video content created for major brands and publications</p>
+      
+      <div class="content-tabs">
+        <button class="content-tab active" onclick="showPanel('videos-panel', this)">Social Videos</button>
+        <button class="content-tab" onclick="showPanel('podcasts-panel', this)">Podcasts</button>
+      </div>
+      
+      <!-- Videos Panel -->
+      <div id="videos-panel" class="content-panel active">
+        <div class="video-grid">
+          <!-- Video 1 (KATZ'S X 12 CHAIRS) -->
+          <div class="video-card">
+            <div class="video-embed">
+              <div class="instagram-embed-container">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DJATcxWuWNz/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                <span>12.5K</span>
+              </div>
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                <span>262K</span>
+              </div>
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                <span>1.2K</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Video 3 (Buba Burekas) -->
+          <div class="video-card">
+            <div class="video-embed">
+              <div class="instagram-embed-container">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DIMKE4YtA42/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                <span>6.7K</span>
+              </div>
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                <span>137K</span>
+              </div>
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                <span>843</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Video 4 (Sweets & Things Tres Leches) -->
+          <div class="video-card">
+            <div class="video-embed">
+              <div class="instagram-embed-container">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DFDvYCrsXDn/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                <span>21.3K</span>
+              </div>
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                <span>494K</span>
+              </div>
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                <span>2.4K</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Video 2 (TITANIC HUDSON PIER) -->
+          <div class="video-card">
+            <div class="video-embed">
+              <div class="instagram-embed-container">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/Cuu-gDFhLsJ/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                <span>15.8K</span>
+              </div>
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                <span>329K</span>
+              </div>
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                <span>1.8K</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- New Video 5 -->
+          <div class="video-card">
+            <div class="video-embed">
+              <div class="instagram-embed-container">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DHUC2R4omJ_/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                <span>9.3K</span>
+              </div>
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                <span>215K</span>
+              </div>
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                <span>1.1K</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- New Video 6 -->
+          <div class="video-card">
+            <div class="video-embed">
+              <div class="instagram-embed-container">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DEYSECOop3O/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14"></blockquote>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                <span>11.2K</span>
+              </div>
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                <span>278K</span>
+              </div>
+              <div class="video-stat">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                <span>1.5K</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Podcasts Panel -->
+      <div id="podcasts-panel" class="content-panel">
+        <!-- Dr. Judith Joseph's Safe Space -->
+        <div class="podcast-series">
+          <div class="podcast-header">
+            <div class="podcast-title">
+              <div class="podcast-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+              </div>
+              <div>
+                <h3>Dr. Judith Joseph's Safe Space</h3>
+                <p>Mental health discussions with Dr. Judith Joseph</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="podcast-episodes">
+            <div class="podcast-embed">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2W9rc9r6mbjbJcilHF8Mc7?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="podcast-embed">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5dXcdsYZCyKM6DYrSRmTAU?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="podcast-embed">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2gwjyXI7DgrnPTKEYA5YVW?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+        
+        <!-- The Bronfman Center's Opening the Tent -->
+        <div class="podcast-series">
+          <div class="podcast-header">
+            <div class="podcast-title">
+              <div class="podcast-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+              </div>
+              <div>
+                <h3>The Bronfman Center's Opening the Tent</h3>
+                <p>Discussions from NYU's Bronfman Center</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="podcast-episodes">
+            <div class="podcast-embed">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2NrbEIJBegAT5DiAyJD8yD?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="podcast-embed">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7FW8tJcIYl9LbwA4k4nAOv?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="podcast-embed">
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7ddMZmo7rvCBfkTRhj2esE?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Analytics Section -->
+  <section id="analytics" class="analytics">
+    <div class="container">
+      <h2 class="section-title">Growth & Performance</h2>
+      <p class="section-subtitle">Measurable results from social media campaigns I've managed for Time Out in LA and Chicago</p>
+      
+      <div class="analytics-tabs">
+        <button class="analytics-tab active" onclick="showAnalyticsPanel('la-panel', this)">Los Angeles</button>
+        <button class="analytics-tab" onclick="showAnalyticsPanel('chicago-panel', this)">Chicago</button>
+      </div>
+      
+      <!-- LA Analytics -->
+      <div class="analytics-content">
+        <div class="analytics-panel active" id="la-panel">
+          <div class="platform-tabs">
+            <button class="platform-tab active" onclick="showPlatformPanel('la-facebook-panel', this)">Facebook</button>
+            <button class="platform-tab" onclick="showPlatformPanel('la-instagram-panel', this)">Instagram</button>
+          </div>
+          
+          <!-- LA Facebook -->
+          <div class="platform-panel active" id="la-facebook-panel">
+            <h3 class="platform-title">Los Angeles Facebook Analytics</h3>
+            <div class="metrics-grid">
+              <!-- Views -->
+              <div class="metric-card">
+                <div class="metric-title">Total Views</div>
+                <div class="metric-value">1.2M</div>
+                <div class="metric-description">Total video views</div>
+              </div>
+              
+              <!-- Reach -->
+              <div class="metric-card">
+                <div class="metric-title">Total Reach</div>
+                <div class="metric-value">850K</div>
+                <div class="metric-description">Total unique users reached</div>
+              </div>
+              
+              <!-- Content Interactions -->
+              <div class="metric-card">
+                <div class="metric-title">Content Interactions</div>
+                <div class="metric-value">68.7K</div>
+                <div class="metric-description">Total likes, comments, shares</div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- LA Instagram -->
+          <div class="platform-panel" id="la-instagram-panel">
+            <h3 class="platform-title">Los Angeles Instagram Analytics</h3>
+            <div class="metrics-grid">
+              <!-- Views -->
+              <div class="metric-card">
+                <div class="metric-title">Total Views</div>
+                <div class="metric-value">325K</div>
+                <div class="metric-description">Total video views</div>
+              </div>
+              
+              <!-- Reach -->
+              <div class="metric-card">
+                <div class="metric-title">Total Reach</div>
+                <div class="metric-value">180K</div>
+                <div class="metric-description">Total unique users reached</div>
+              </div>
+              
+              <!-- Content Interactions -->
+              <div class="metric-card">
+                <div class="metric-title">Content Interactions</div>
+                <div class="metric-value">12.5K</div>
+                <div class="metric-description">Total likes, comments, shares</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Chicago Analytics -->
+        <div class="analytics-panel" id="chicago-panel">
+          <div class="platform-tabs">
+            <button class="platform-tab active" onclick="showPlatformPanel('chicago-facebook-panel', this)">Facebook</button>
+            <button class="platform-tab" onclick="showPlatformPanel('chicago-instagram-panel', this)">Instagram</button>
+          </div>
+          
+          <!-- Chicago Facebook -->
+          <div class="platform-panel active" id="chicago-facebook-panel">
+            <h3 class="platform-title">Chicago Facebook Analytics</h3>
+            <div class="metrics-grid">
+              <!-- Views -->
+              <div class="metric-card">
+                <div class="metric-title">Total Views</div>
+                <div class="metric-value">2.8M</div>
+                <div class="metric-description">Total video views</div>
+              </div>
+              
+              <!-- Reach -->
+              <div class="metric-card">
+                <div class="metric-title">Total Reach</div>
+                <div class="metric-value">1.4M</div>
+                <div class="metric-description">Total unique users reached</div>
+              </div>
+              
+              <!-- Content Interactions -->
+              <div class="metric-card">
+                <div class="metric-title">Content Interactions</div>
+                <div class="metric-value">125K</div>
+                <div class="metric-description">Total likes, comments, shares</div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Chicago Instagram -->
+          <div class="platform-panel" id="chicago-instagram-panel">
+            <h3 class="platform-title">Chicago Instagram Analytics</h3>
+            <div class="metrics-grid">
+              <!-- Views -->
+              <div class="metric-card">
+                <div class="metric-title">Total Views</div>
+                <div class="metric-value">750K</div>
+                <div class="metric-description">Total video views</div>
+              </div>
+              
+              <!-- Reach -->
+              <div class="metric-card">
+                <div class="metric-title">Total Reach</div>
+                <div class="metric-value">420K</div>
+                <div class="metric-description">Total unique users reached</div>
+              </div>
+              
+              <!-- Content Interactions -->
+              <div class="metric-card">
+                <div class="metric-title">Content Interactions</div>
+                <div class="metric-value">35K</div>
+                <div class="metric-description">Total likes, comments, shares</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section" style="background-color: #2c5e35; color: white;">
+    <div class="container" style="text-align: center;">
+      <h2 style="color: white;">Let's Work Together</h2>
+      <p style="color: #e9f5db; max-width: 600px; margin: 0 auto 2rem;">Interested in collaborating or have a project in mind? Get in touch and let's create something amazing.</p>
+      <a href="mailto:your-email@example.com" class="btn">
+        Contact Me
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 0.5rem;"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-logo">Avery Porges</div>
+          <p style="color: #c7e8ca; margin-top: 0.5rem;">© 2025 All rights reserved.</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/averyporges/" target="_blank" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="https://www.tiktok.com/@user66567348" target="_blank" aria-label="TikTok">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/avery-porges-1948081a0/" target="_blank" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="https://www.youtube.com/@AveryPorges" target="_blank" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+          </a>
+          <a href="#" target="_blank" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Instagram Embed Script -->
+  <script async src="//www.instagram.com/embed.js"></script>
+  
+  <!-- Simple Tab Switching Scripts (Fixed for Mobile) -->
+  <script>
+    // Function to show content panels
+    function showPanel(panelId, clickedTab) {
+      // Hide all panels
+      var panels = document.querySelectorAll('.content-panel');
+      for (var i = 0; i < panels.length; i++) {
+        panels[i].classList.remove('active');
+      }
+      
+      // Show the selected panel
+      document.getElementById(panelId).classList.add('active');
+      
+      // Update tab states
+      var tabs = document.querySelectorAll('.content-tab');
+      for (var i = 0; i < tabs.length; i++) {
+        tabs[i].classList.remove('active');
+      }
+      
+      // Add active class to clicked tab
+      clickedTab.classList.add('active');
+      
+      // Process Instagram embeds
+      if (window.instgrm && window.instgrm.Embeds) {
+        window.instgrm.Embeds.process();
+      }
+    }
+    
+    // Function to show analytics panels
+    function showAnalyticsPanel(panelId, clickedTab) {
+      // Hide all panels
+      var panels = document.querySelectorAll('.analytics-panel');
+      for (var i = 0; i < panels.length; i++) {
+        panels[i].classList.remove('active');
+      }
+      
+      // Show the selected panel
+      document.getElementById(panelId).classList.add('active');
+      
+      // Update tab states
+      var tabs = document.querySelectorAll('.analytics-tab');
+      for (var i = 0; i < tabs.length; i++) {
+        tabs[i].classList.remove('active');
+      }
+      
+      // Add active class to clicked tab
+      clickedTab.classList.add('active');
+    }
+    
+    // Function to show platform panels
+    function showPlatformPanel(panelId, clickedTab) {
+      // Find the parent analytics panel
+      var parentPanel = clickedTab.closest('.analytics-panel');
+      
+      // Hide all platform panels within this analytics panel
+      var platformPanels = parentPanel.querySelectorAll('.platform-panel');
+      for (var i = 0; i < platformPanels.length; i++) {
+        platformPanels[i].classList.remove('active');
+      }
+      
+      // Show the selected platform panel
+      document.getElementById(panelId).classList.add('active');
+      
+      // Update platform tab states
+      var platformTabs = parentPanel.querySelectorAll('.platform-tab');
+      for (var i = 0; i < platformTabs.length; i++) {
+        platformTabs[i].classList.remove('active');
+      }
+      
+      // Add active class to clicked tab
+      clickedTab.classList.add('active');
+    }
+    
+    // Process Instagram embeds when the page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      // Force Instagram embeds to load
+      if (window.instgrm && window.instgrm.Embeds) {
+        window.instgrm.Embeds.process();
+      } else {
+        // If Instagram script hasn't loaded yet, try again in a second
+        setTimeout(function() {
+          if (window.instgrm && window.instgrm.Embeds) {
+            window.instgrm.Embeds.process();
+          }
+        }, 1000);
+      }
+    });
+  </script>
+</body>
 </html>
