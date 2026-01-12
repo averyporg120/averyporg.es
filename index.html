@@ -706,6 +706,46 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
+	  
+	  /* --- GRAPHICS TAB SPECIFIC STYLES --- */
+/* This overrides the grid alignment so cards don't stretch to match heights */
+#graphics-panel .video-grid {
+  align-items: start; 
+}
+
+/* A specialized card class that allows variable heights */
+.social-graphic-card {
+  border: 1px solid #c7e8ca;
+  border-radius: 0.5rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* CRITICAL FIX: explicit auto height and visible overflow */
+  height: auto !important;
+  overflow: visible !important; 
+  margin-bottom: 0;
+}
+
+/* The wrapper around the iframe */
+.social-graphic-embed {
+  width: 100%;
+  /* CRITICAL FIX: Remove any padding hacks or fixed heights */
+  padding: 0; 
+  margin: 0;
+  display: block;
+  background: #fff;
+  border-bottom: 1px solid #f0f7f4;
+}
+
+/* Force the iframe to behave nicely */
+.social-graphic-embed iframe {
+  width: 100% !important;
+  min-width: 100% !important;
+  /* Let Instagram calculate the height naturally */
+  position: relative !important; 
+  height: auto !important; 
+  display: block !important;
+}
   </style>
 </head>
 <body>
